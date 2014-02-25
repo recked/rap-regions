@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Rap Regions</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Rap Regions</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="regions.html">Regions</a>
+                    </li>
+                    <li>
+                        <a href="facts.html">Facts</a>
+                    </li>
+                    <li class="active">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/recked/rap-regions">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <!-- Timeline? -->
+        <div class="row">
+            <div class="col-md-12">
+                <h2>About</h2>
+                <p>Rap Regions takes a look at the origins of rap and hip hop artists from the late ‘70s to 2005. The information on the map displays the artist's origin city, region, subgenre, when they got started in the industry and a link to their music on Spotify Web Player.</p>
+                <h3>About the Developer</h3>
+                <p>My name is Arissa Brown, senior web development student at the University of Central Florida. This idea originally spawned from my need to come up with a compelling topic for my Digital Humanities class.</p>
+                <p>I felt it would be very interesting to visualize where sub-genres of hip hop emerged geographically. Since I haven’t lived anywhere else except Florida, I’m extremely familiar with artists from the Dirty South region (Trick Daddy, Trina, Uncle Luke, etc) and mainstream names from other regions. However, I felt I didn't know too much more about other prolific artists who have contributed to the evolution of rap.</p>
+                <p>All the data about the artists were collected by me and entered into a spreadsheet. The spreadsheet was then imported into a MySQL database and turned into a JSON file using PHP.</p>
+                <p>Data colected:</p>
+                <ul>
+                    <li>Artist name</li>
+                    <li>Subgenre (if applicable)</li>
+                    <li>Region</li>
+                    <li>Origin city</li>
+                    <li>Latitude/Longitude of origin city</li>
+                    <li>The year the artist started in industry</li>
+                    <li>Spotify artist id</li>
+                </ul>
+                <p>As I gathered information, I took note of any interesting facts which can be found <a href="facts.html">here</a>.</p>
+                <p>I want this to become a useful tool for those interested in the origins of rap so I am making this project open source in the hopes that others are willing to expand on it. Check out the source on
+                    <a href="https://github.com/recked/rap-regions">GitHub</a>to see how you can contribute.
+                </p>
+                <p>Follow me on
+                    <a href="https://twitter.com/reckdev">Twitter</a>for project updates.</p>
+
+            </div>
+            <div class="col-md-12">
+                <h2>Citations</h2>
+                <div class="cite">
+                    Caesar, Syd. "Westside Story: The History of West Coast Hip Hop." Westside Story: The History of West Coast Hip Hop. Web. 13 Feb. 2014.
+                    <a href="http://geniusrap.com/rap-articles/westside-story-the-history-of-west-coast-hip-hop.html">Link</a>
+                </div>
+                <div class="cite">
+                    "Hip Hop Music." Wikipedia. Wikimedia Foundation. Web. 10 Feb. 2014.
+                    <a href="http://en.wikipedia.org/wiki/Hip_hop_music">Link</a>
+                </div>
+                <div class="cite">
+                    Mervis, Scott. "From Kool Herc to 50 Cent, the Story of Rap -- so Far." From Kool Herc to 50 Cent, the Story of Rap -- so Far. Web. 13 Feb. 2014.
+                    <a href="http://old.post-gazette.com/ae/20040215rap0215aep1.asp">Link</a>
+                </div>
+                <div class="cite">
+                    "Rap & Hiphop Music." Rap and Hiphop History @ Rapworld.com. Web. 14 Feb. 2014.
+                    <a href="http://www.rapworld.com/history/">Link</a>
+                </div>
+                <div class="cite">
+                    "Best-selling Hip Hop Albums in the United States." Wikipedia. Wikimedia Foundation, 02 July 2014. Web. 14 Feb. 2014.
+                    <a href="http://en.wikipedia.org/wiki/List_of_best-selling_hip_hop_albums_in_the_United_States">Link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
