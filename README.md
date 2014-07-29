@@ -2,7 +2,7 @@
 
 Taking a look at the origins of rap and hip hop artists from the late ‘70s to 2005 in the United States using Google Maps API.
 
-[Hosted on GitHub Pages!](www.rapregions.com)
+[Hosted on GitHub Pages!](http://rapregions.com/)
 
 
 ####What makes an artist eligible:
